@@ -6,17 +6,17 @@
     'maintainer': 'Serpent Consulting Services Pvt. Ltd.',
     'category': 'Sales Management',
     'website': 'https://www.serpentcs.com',
-    'version': '16.0.1.0.1',
-    'license': 'AGPL-3',
+    'version': '17.0.1.0.1',
+    'license': 'LGPL-3',
     'summary': 'Hide price/discount in Sale Order Report',
-    'depends': [
-        'sale_management'
-    ],
-    'images': ['static/description/icon.png'],
+    'depends': ['sale_management'],
+    'images': ['static/description/sale_report_hide_price_17.png'],
     'data': [
         'wizard/sale_wizard.xml',
         'security/ir.model.access.csv',
         'views/report_saleorder.xml',
     ],
+    'price': '15',
+    'currency': 'EUR',
     'installable': True,
 }

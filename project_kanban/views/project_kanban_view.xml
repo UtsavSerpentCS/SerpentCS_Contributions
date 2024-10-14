@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
 
+    <!-- Project Kanban Form View -->
     <record id="view_project_kanaban_form" model="ir.ui.view">
         <field name="name">project.kanban.form</field>
         <field name="model">project.project</field>
@@ -9,11 +10,12 @@
             <field name="partner_id" position="after">
                 <field name="write_date" readonly="1"/>
                 <field name="recent_date"/>
-                <field name="__last_update" invisible="1"/>
             </field>
         </field>
     </record>
 
+
+    <!-- Project Kanban Kanban View -->
     <record id="view_project_kanaban_kanban" model="ir.ui.view">
         <field name="name">project.kanban.kanban</field>
         <field name="model">project.project</field>
@@ -33,7 +35,6 @@
                     <a>
                         Recent Log Date:
                         <field name="recent_date" string="Recent Date"/>
-                        <field name="__last_update" invisible="1"/>
                     </a>
                 </div>
             </div>

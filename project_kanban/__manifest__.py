@@ -2,7 +2,7 @@
 
 {
     "name": "Project - Status by Recent Activities",
-    "version": "16.0.1.0.0",
+    "version": "17.0.1.0.0",
     "author": "Serpent Consulting Services Pvt. Ltd.",
     "license": "LGPL-3",
     "maintainer": "Serpent Consulting Services Pvt. Ltd.",
@@ -13,6 +13,6 @@
                 for the Project.""",
     "depends": ["project"],
     "data": ["views/project_kanban_view.xml"],
-    "images": ["static/description/ProjectKanban.png"],
+    "images": ["static/description/Banner_project_kanban.png"],
     "installable": True,
 }

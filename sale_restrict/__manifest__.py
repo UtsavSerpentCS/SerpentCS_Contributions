@@ -2,7 +2,7 @@
 
 {
     "name": "SO - Product Price Check",
-    "version": "16.0.1.0.0",
+    "version": "17.0.1.0.0",
     "category": "Sales Management",
     "author": "Serpent Consulting Services Pvt. Ltd.",
     "summary": "Restrict sales on 0 value.",
@@ -13,6 +13,8 @@
     "data": [
         'security/sale_restrict_security.xml',
     ],
+    'price': '7',
+    'currency': 'EUR',
     "images": ["static/description/PriceCheck.png"],
     "installable": True,
 }
